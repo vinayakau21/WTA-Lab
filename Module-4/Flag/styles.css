@@ -1,0 +1,52 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+}
+
+.chakra {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  animation: rotate linear infinite 3s 1s forwards;
+}
+
+.orange {
+  height: 100px;
+  width: 0;
+  background-color: #ff671f;
+  animation: movex 1s 1s forwards;
+}
+
+.white {
+  height: 100px;
+  width: 0;
+  background-color: #ffffff;
+  animation: movex 1s 1s forwards;
+}
+
+.green {
+  height: 100px;
+  width: 0;
+  background-color: #046a38;
+  animation: movex 1s 1s forwards;
+}
+
+@keyframes movex {
+  to {
+    width: 400px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
