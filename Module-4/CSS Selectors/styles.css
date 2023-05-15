@@ -1,0 +1,23 @@
+* {
+  margin: 25px;
+}
+
+h1 {
+  color: red;
+}
+
+div {
+  border: 5px solid #000;
+}
+
+#example {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.example {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
